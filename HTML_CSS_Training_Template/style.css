@@ -1,0 +1,344 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
+.main-header {
+  font-size: 18px;
+}
+
+.position {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.nav-container {
+  display: block;
+  background-color: #fff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.09);
+  padding: 1rem 0;
+}
+
+.top-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.start {
+  font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 5px 0;
+  margin-right: 1rem;
+}
+
+.start:hover {
+  color: blue;
+}
+
+.nav-setion {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.header-features {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.header-features:active {
+  color: blue;
+}
+
+.header-features:hover,
+.header-download:hover {
+  color: #dddd;
+}
+
+.header-download {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.feedback-button {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background-color: #2937f0;
+  padding: 8px 12px;
+  border-radius: 100px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  gap: 1px;
+  cursor: pointer;
+}
+
+.menu-size {
+  width: 4rem;
+  height: 1.8rem;
+  display: flex;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 0px 0.5px 0.5px #bbb;
+  padding: 5px 8px;
+
+  padding-top: 8px;
+  font-size: 0.75rem;
+}
+.menu {
+  display: none;
+}
+.showcase-container {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 4rem;
+}
+
+.showcase {
+  width: 50%;
+  line-height: 1;
+  margin: 6rem 0;
+}
+
+.showcase-headline {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.showcase-para {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 3rem;
+  line-height: 1.5;
+  padding-left: 1rem;
+}
+
+.google-logo,
+.apple-logo {
+  padding-right: 0.5rem;
+  padding-left: 1rem;
+}
+
+.img {
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  padding-left: 4rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.quote {
+  font-family: "Newsreader", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #fff;
+  text-align: center;
+  font-size: 2.7rem;
+  background: linear-gradient(45deg, #2937f0, #9f1ae2);
+  padding-top: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.blockquote {
+  width: 900px;
+  margin-bottom: 1.5rem;
+}
+
+svg {
+  width: 114px;
+  height: 38px;
+  margin-bottom: 4rem;
+}
+
+.features {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 0;
+}
+.f-container {
+  padding: 0 2rem;
+}
+.feature-img {
+  width: 35%;
+}
+
+.features-icon {
+  display: flex;
+  align-items: center;
+}
+
+.feature-box {
+  padding: 2rem;
+}
+.text-center {
+  text-align: center;
+  line-height: 1.5;
+}
+.text-size {
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.para-size {
+  font-size: 1.05rem;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 15%;
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem !important;
+  gap: 6rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.web-design {
+  width: 50%;
+  padding: 0 1rem;
+}
+.web-text {
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+.web-para {
+  font-size: 22px;
+  color: #666;
+  line-height: 1.5;
+}
+.info-img {
+  width: 50%;
+  border-radius: 50%;
+  padding: 0 0.5rem;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.border-radius {
+  border-radius: 50%;
+}
+.hero-section {
+  position: relative;
+  background-image: url(https://source.unsplash.com/5g41N3uRPf8/1500x800);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0;
+  display: block;
+}
+.hero-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.text-section {
+  position: relative;
+  padding-top: 6rem;
+}
+.hero-text {
+  color: #fff;
+  font-size: 4rem;
+  width: 40%;
+  padding: 0 4rem;
+  margin-bottom: 2rem;
+}
+.hero-button {
+  color: #fff;
+  padding: 1.2rem 2rem;
+  border-radius: 100px;
+  font-size: 1rem;
+  font-family: 600;
+  border-color: #fff;
+  background-color: transparent;
+  margin-left: 4rem;
+  margin-bottom: 15rem;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.hero-button:hover {
+  color: #000;
+  background-color: white;
+}
+.getapp {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2);
+  margin-bottom: 0;
+  display: block;
+}
+.getapp-text {
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+.download {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+  color: #fff;
+}
+footer {
+  display: block;
+  background-color: #000;
+  margin: 0;
+}
+.footer-para {
+  color: #aaa;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 16px;
+  margin: 0;
+}
+
+.anchor-tag {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #aaa;
+  justify-content: center;
+}
